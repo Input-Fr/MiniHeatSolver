@@ -24,9 +24,13 @@ $ cd build
 $ make
 ```
 
-This compile the `main` and `bench` binaries. 
+This compile the `main` and `bench` binaries.
 The benchmark uses google benchmark, if you have already installed it, nothing more will be installed,
 otherwise it will be temporarily installed in the build. 
+
+> [!TIP]
+> You can choose to not build the bench or the main (to build only one of the two binaries) by setting `-DBENCH=OFF` or `-DMAIN=OFF` while generating the build with `cmake`.
+
 
 ## Usage
 
