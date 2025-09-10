@@ -5,11 +5,6 @@
 #include <thread>
 #include <chrono>
 #include "solver.h"
-/*
-#include <fmt/core.h>
-#include <fmt/color.h>
-#include <fmt/chrono.h>
-*/
 
 void BM_Explicit(benchmark::State& st) {
     double dx = 1e-3;
